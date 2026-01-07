@@ -7,7 +7,7 @@
 
 ## Run the project
 ```bash
-git clone https://github.com/YOUR_USERNAME/my-python-project.git
+git clone https://github.com/dorellana-2024/audio_editing.git
 cd my-python-project
 docker compose up --build
 ```
