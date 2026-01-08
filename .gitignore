@@ -6,6 +6,7 @@
 *.ipynb_checkpoints
 
 # Virtual Environments
+venv/
 venv_py3.10/
 *.pyc
 __pycache__/
