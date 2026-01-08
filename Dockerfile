@@ -25,11 +25,14 @@ COPY requirements.txt .
 # Update pip
 RUN pip install --upgrade pip 
 
-# Instalar dependencias Python
+# Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
+
+# Install for Jupyter notebook
+RUN pip install jupyterlab ipykernel
 
 # Copy project
 COPY . .
 
-# Default command
-CMD ["python", "main.py"]
+# # Default command
+# CMD ["python", "main.py"]
