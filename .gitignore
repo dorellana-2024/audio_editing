@@ -10,5 +10,5 @@ __pycache__/
 
 ./audios/
 
-**/.ipynb_checkpoints/
+**/..ipynb_checkpoints.ipynb_checkpoints/
 
