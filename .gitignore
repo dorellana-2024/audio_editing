@@ -1,14 +1,30 @@
 # --- IGNORE ---
 
-.env
-__pycache__/
+# Jupyter Notebook
+**/..ipynb_checkpoints/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual Environments
+venv_py3.10/
 *.pyc
-.venv/
-.idea/
-.vscode/
+__pycache__/
+
+# Docker
+*.env
+*.dockerignore
+Dockerfile
+docker-compose.override.yml
+**/__pycache__/
+
+# Sys
 .DS_Store
+Thumbs.db
 
-./audios/
+# PyCharm / VSCode / IDEs
+.vscode/
 
-**/..ipynb_checkpoints.ipynb_checkpoints/
+# Specific folders
+audios/
+
 
