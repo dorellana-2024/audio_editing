@@ -74,7 +74,14 @@ pip install -r requirements.txt
 
 👉 https://huggingface.co/settings/tokens
 
-Permisos necesarios: READ
+👉 Permisos necesarios: READ
+
+(*) Steps:
+- Clic en New token
+- Completar:
+    - Name: pyannote
+    - Role: Read (* Permisos necesarios)
+- Clic en Generate token
 
 2. Aceptar modelos (una sola vez)
 - https://huggingface.co/pyannote/speaker-diarization-3.0
@@ -91,8 +98,9 @@ Crear archivo .env en la raíz del proyecto:
 PYANNOTE_HF_TOKEN=hf_xxxxxxxxxxxxxxxxxxxxx
 ```
 
-## 🧠 Código base (main.ipynb)
+## 🧠 Código base 
 ```py
+# main.ipynb
 import os
 
 # --- Windows / Hugging Face fixes ---
