@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 💡 requirements.txt debe generarse con pip-compile si se usa pip-tools.
 
-# 🔐 Token de Hugging Face
+## 🔐 Token de Hugging Face
 
 1. Crear token
 
@@ -83,7 +83,7 @@ Permisos necesarios: READ
 Debe decir:
 ✅ You have been granted access to this model
 
-# 🌱 Variables de entorno
+## 🌱 Variables de entorno
 
 Crear archivo .env en la raíz del proyecto:
 
@@ -91,7 +91,7 @@ Crear archivo .env en la raíz del proyecto:
 PYANNOTE_HF_TOKEN=hf_xxxxxxxxxxxxxxxxxxxxx
 ```
 
-# 🧠 Código base (main.ipynb)
+## 🧠 Código base (main.ipynb)
 ```py
 import os
 
@@ -121,7 +121,7 @@ pipeline = Pipeline.from_pretrained(
 )
 ```
 
-# ⚠️ Advertencias esperadas (NO errores)
+## ⚠️ Advertencias esperadas (NO errores)
 
 ```terminal
 UserWarning: torchaudio._backend.get_audio_backend has been deprecated
@@ -129,7 +129,7 @@ UserWarning: speechbrain.pretrained was deprecated
 UserWarning: AudioMetaData has been moved
 ```
 
-# 🧹 Estructura del proyecto
+## 🧹 Estructura del proyecto
 ```txt
 audio_editing/
 │
