@@ -80,7 +80,7 @@ pip install -r requirements.txt
 - Clic en New token
 - Completar:
     - Name: pyannote
-    - Role: Read (* Permisos necesarios)
+    - Role: Read 
 - Clic en Generate token
 
 2. Aceptar modelos (una sola vez)
@@ -153,5 +153,5 @@ audio_editing/
 ├─ requirements.in
 ├─ requirements.txt
 ├─ README.md
-└─ venv_py3.10/
+└─ venv/
 ```
