@@ -16,3 +16,13 @@ docker compose up --build
 # Run notebooks
 docker compose up jupyter 
 ```
+
+
+## Requisitos del sistema
+
+- Python 3.10.11
+- FFmpeg instalado y disponible en PATH
+
+Windows:
+https://www.gyan.dev/ffmpeg/builds/
+Download: ffmpeg-release-essentials.zip
