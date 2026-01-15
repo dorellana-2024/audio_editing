@@ -26,6 +26,6 @@ Thumbs.db
 .vscode/
 
 # Specific folders
+audios.zip
 audios/
 output/
-
